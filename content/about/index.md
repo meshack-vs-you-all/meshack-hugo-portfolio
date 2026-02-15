@@ -1,19 +1,9 @@
 ---
-title: "About"
-description: "Software engineer based in Nairobi, Kenya — building production-grade Django, FastAPI, and React platforms."
-showDate: false
-showReadingTime: false
-showAuthor: true
-showTableOfContents: true
-showComments: false
-layout: "simple"
----
-
----
 title: "About Me"
 description: "Comprehensive professional background, skills, and experience."
 layout: "simple"
 showTableOfContents: true
+showAuthor: true
 ---
 
 {{< lead >}}
@@ -23,73 +13,59 @@ I am a **Full Stack Engineer** based in Nairobi, building systems that solve rea
 ## Technical Arsenal
 
 {{< alert >}}
-**Core Stack**: Python (Django/FastAPI), JavaScript/TypeScript (React), Docker, PostgreSQL, Linux.
+**Core Stack**: Python (Django), React, Docker, PostgreSQL, Linux.
 {{< /alert >}}
 
-**Programming Languages**
-: Python (Advanced), TypeScript, JavaScript (ES6+), Go, Bash/Shell, SQL
+### Languages & Frameworks
+{{< badge >}}Python{{< /badge >}} {{< badge >}}TypeScript{{< /badge >}} {{< badge >}}Go{{< /badge >}} {{< badge >}}Django{{< /badge >}} {{< badge >}}FastAPI{{< /badge >}} {{< badge >}}React{{< /badge >}} {{< badge >}}Next.js{{< /badge >}} {{< badge >}}Tailwind{{< /badge >}}
 
-**Backend Frameworks**
-: Django, Django REST Framework (DRF), FastAPI, Node.js, Wagtail CMS
+### DevOps & Tools
+{{< badge >}}Docker{{< /badge >}} {{< badge >}}Kubernetes{{< /badge >}} {{< badge >}}Linux{{< /badge >}} {{< badge >}}Nginx{{< /badge >}} {{< badge >}}Git{{< /badge >}} {{< badge >}}GitHub Actions{{< /badge >}} {{< badge >}}Traefik{{< /badge >}}
 
-**Frontend Technologies**
-: React.js, Next.js, Tailwind CSS, HTML5/CSS3
-
-**DevOps & Cloud**
-: Docker, Docker Compose, Linux (Ubuntu/Fedora), Nginx, Git, GitHub Actions, Traefik
-
-**AI & Automation**
-: Ollama, Local LLMs, Model Context Protocol (MCP), n8n Workflows
+### AI & Automation
+{{< badge >}}Ollama{{< /badge >}} {{< badge >}}Local LLMs{{< /badge >}} {{< badge >}}MCP{{< /badge >}} {{< badge >}}n8n{{< /badge >}}
 
 ---
 
 ## Professional Experience
 
-### Freelance Technical Consultant
-**2023 – Present** | *Remote / Nairobi*
-- **Database Optimization**: Reduced database load by **60%** for high-traffic clients using Redis caching strategies.
-- **DevOps Automation**: Developed scripts reducing environment setup time from days to **<30 minutes**.
-- **Full Stack Development**: Built and deployed production-ready applications using Django, React, and PostgreSQL.
+{{< timeline >}}
 
-### Operations Coordinator | FreshSpin Laundry
-**2022 – 2023** | *Nairobi*
-- **Workflow Optimization**: implemented digital tracking systems improving operational throughput by **40%**.
-- **Customer Retention**: Coordinated strategies leading to a **25%** increase in repeat business.
-- **Process Improvement**: Reduced operational costs by **15%** while maintaining service quality.
+  {{< timelineItem icon="code" header="Freelance Technical Consultant" badge="2023 – Present" subheader="Remote / Nairobi" >}}
+  Delivering full-stack solutions for high-traffic clients.
+  - **Database Optimization**: Reduced load by **60%** using Redis.
+  - **DevOps**: Automated setup reducing time from days to **<30 mins**.
+  - **Full Stack**: Built production apps with Django & React.
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="briefcase" header="Operations Coordinator" badge="2022 – 2023" subheader="FreshSpin Laundry" >}}
+  Led operational digitization and workflow optimization.
+  - **Efficiency**: Improved throughput by **40%**.
+  - **Growth**: Increased retention by **25%**.
+  - **Cost**: Reduced operational costs by **15%**.
+  {{< /timelineItem >}}
+
+{{< /timeline >}}
 
 ---
 
 ## Education & Certifications
 
-### ALX Software Engineering
-**2024 – Present**
-*Holberton School Curriculum*
-- Specialization in Back-End Systems, DevOps, and Low-level programming (C, Python).
+{{< timeline >}}
+  {{< timelineItem icon="graduation-cap" header="ALX Software Engineering" badge="2024 – Present" subheader="Holberton School" >}}
+  Specialization in Back-End Systems, DevOps, and Low-level programming (C, Python).
+  {{< /timelineItem >}}
 
-### ALX Career Programme
-**May 2025 – Present**
-*Software Engineering Track*
-- Comprehensive curriculum covering algorithms, system design, and professional skills.
-
-### Certifications
-- **ALX Software Engineering Programme** (Ongoing)
-- **Self-Directed Technical Learning**: Active contributor to open-source and technical communities.
+  {{< timelineItem icon="certificate" header="ALX Career Programme" badge="May 2025" >}}
+  Comprehensive curriculum covering algorithms, system design, and professional skills.
+  {{< /timelineItem >}}
+{{< /timeline >}}
 
 ---
 
 ## Featured Projects
 
-### JPF Stretch Hub
-*Django, Python, Web App*
-A comprehensive business management platform for a fitness studio handling bookings, payments, and user management.
-
-### Shopify Marketing AI
-*TypeScript, AI Agents*
-Automated marketing strategy generator for Shopify stores, using AI agents to create and schedule content.
-
-### Homelab Infrastructure
-*Docker, K3s, Traefik*
-Self-hosted infrastructure running on bare metal, featuring automated backups, monitoring (Grafana/Prometheus), and custom services.
+{{< list limit="3" title="Recent Work" where="Type" value="projects" >}}
 
 ---
 
