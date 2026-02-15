@@ -74,14 +74,20 @@ I am a **Full Stack Engineer** based in Nairobi, building systems that solve rea
 I am open to **Contract Work**, **Consulting**, and **Full-Time Opportunities**.
 
 <div class="flex flex-wrap gap-4">
-  {{< button href="mailto:meshackmogire406@gmail.com" >}}
+  {{< button href="mailto:meshackmogire254@gmail.com" >}}
     {{< icon "email" >}} Email Me
   {{< /button >}}
   {{< button href="https://github.com/meshack-vs-you-all" >}}
     {{< icon "github" >}} GitHub
   {{< /button >}}
-  {{< button href="https://linkedin.com/in/meshack-onsare-01b830283" >}}
+  {{< button href="https://www.linkedin.com/in/meshack-onsare-01b830283/" >}}
     {{< icon "linkedin" >}} LinkedIn
+  {{< /button >}}
+  {{< button href="https://x.com/meshack_codes" >}}
+    {{< icon "twitter" >}} Twitter
+  {{< /button >}}
+  {{< button href="tel:+254769071925" >}}
+    {{< icon "phone" >}} +254 769 071 925
   {{< /button >}}
 </div>
 

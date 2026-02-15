@@ -40,7 +40,10 @@ def organize():
 Here is the script in action:
 
 {{< asciinema id="113337" >}}
-*(Note: This is a demo recording)*
+*(Note: This is a placeholder demo. To replace it with your own recording:)*
+1. Run `asciinema rec demo.cast` in your terminal.
+2. Run `asciinema upload demo.cast`.
+3. Copy the ID from the URL and update this shortcode.
 
 ## 3. Expense Tracking
 

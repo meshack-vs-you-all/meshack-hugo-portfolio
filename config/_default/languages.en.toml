@@ -16,15 +16,16 @@ title = "Meshack Mogire"
 
 [params.author]
   name = "Meshack Mogire"
-  email = "meshackmogire406@gmail.com"
+  email = "meshackmogire254@gmail.com"
   # image = "img/avatar.png"
   imageQuality = 96
   headline = "Software Engineer"
   bio = "Building production-grade platforms from Nairobi. Django · FastAPI · React · Docker"
   links = [
     { github = "https://github.com/meshack-vs-you-all" },
-    { linkedin = "https://linkedin.com/in/meshackmogire" },
-    { twitter = "https://twitter.com/meshack_vs_all" },
-    { email = "mailto:meshackmogire406@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/meshack-onsare-01b830283/" },
+    { twitter = "https://x.com/meshack_codes" },
+    { email = "mailto:meshackmogire254@gmail.com" },
+    { whatsapp = "https://wa.me/254769071925" },
   ]
 

@@ -30,4 +30,4 @@ We do not share your Personal Information with third parties for marketing purpo
 
 ## Contact Us
 
-For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at **meshackmogire406@gmail.com**.
+For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at **meshackmogire254@gmail.com**.
