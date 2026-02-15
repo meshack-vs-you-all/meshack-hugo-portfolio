@@ -8,14 +8,14 @@ description: "Full Stack Engineer building intelligent agents, terminal-based de
 {{< /badge >}}
 
 {{< lead >}}
-I am a **Full Stack Engineer** and **AI Developer** passionate about blending robust web architectures with **Local LLMs** and **Model Context Protocol (MCP)**. I build autonomous workflows that solve real-world problems.
+I am a **Full Stack Engineer** passionate about blending robust web architectures with **AI Tools** and **Modern DevOps**. I build production-ready systems that solve real-world problems.
 {{< /lead >}}
 
 {{< typeit tag="h3" speed="25" lifeLike="true" startDelay="1000" loop="true" >}}
-Building intelligent agents with Ollama.
-Creating terminal-based developer tools.
 Architecting scalable Django & React apps.
-Deep diving into Model Context Protocol (MCP).
+Building intelligent systems with Local LLMs.
+Creating terminal-based developer tools.
+Optimizing production infrastructure.
 {{< /typeit >}}
 
 <div class="flex flex-wrap justify-center gap-8 my-12 grayscale hover:grayscale-0 transition-all duration-500">
@@ -30,11 +30,11 @@ Deep diving into Model Context Protocol (MCP).
 </div>
 
 {{< timeline >}}
-  {{< timelineItem icon="robot" header="MCP Client for Ollama" badge="Current Focus" >}}
-  Developing a **Text-Based User Interface (TUI)** for interacting with MCP servers.
+  {{< timelineItem icon="code" header="ServiceScout" badge="Lead Engineer" >}}
+  Architecting a **Django-based Service Aggregator** connecting Nairobi users with local providers.
   <ul>
-    <li><b>Features</b>: Agent mode, dynamic model switching, tool management.</li>
-    <li><b>Stack</b>: Python, Ollama, MCP.</li>
+    <li><b>Features</b>: SEO-first architecture, custom lead capture workflows, Postgres search.</li>
+    <li><b>Stack</b>: Django, Python, Docker, Tailwind.</li>
   </ul>
   {{< /timelineItem >}}
 
