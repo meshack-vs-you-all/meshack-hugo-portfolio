@@ -97,7 +97,7 @@ Self-hosted infrastructure running on bare metal, featuring automated backups, m
 
 I am open to **Contract Work**, **Consulting**, and **Full-Time Opportunities**.
 
-{{< div "flex flex-wrap gap-4" >}}
+<div class="flex flex-wrap gap-4">
   {{< button href="mailto:meshackmogire406@gmail.com" >}}
     {{< icon "email" >}} Email Me
   {{< /button >}}
@@ -107,5 +107,5 @@ I am open to **Contract Work**, **Consulting**, and **Full-Time Opportunities**.
   {{< button href="https://linkedin.com/in/meshack-onsare-01b830283" >}}
     {{< icon "linkedin" >}} LinkedIn
   {{< /button >}}
-{{< /div >}}
+</div>
 
