@@ -5,6 +5,7 @@ draft: false
 description: "Choosing the right branching strategy for your team. Feature branches, protection rules, and merging."
 summary: "Should you use GitFlow or Trunk-Based Development? We analyze the pros and cons of modern version control strategies."
 tags: ["Git", "Collaboration", "DevOps", "Workflow"]
+series: ["DevOps Zero to Hero"]
 featuredImage: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2076&auto=format&fit=crop"
 layout: "simple"
 ---

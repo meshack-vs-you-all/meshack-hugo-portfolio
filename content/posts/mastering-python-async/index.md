@@ -6,6 +6,7 @@ description: "Understanding the event loop, concurrency, and how to write non-bl
 summary: "Asyncio isn't just `async` and `await`. Learn how to build high-concurrency applications using Python's modern async features."
 tags: ["Python", "Asyncio", "Concurrency", "Backend"]
 series: ["Python Deep Dive"]
+series: ["Python Deep Dive"]
 featuredImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
 layout: "simple"
 ---

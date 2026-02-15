@@ -5,6 +5,7 @@ draft: false
 description: "Configuring Traefik for automatic SSL and docker-integrated routing."
 summary: "Say goodbye to manually editing Nginx configs. Traefik listens to your Docker socket and routes traffic automatically."
 tags: ["Traefik", "Docker", "DevOps", "Networking"]
+series: ["DevOps Zero to Hero"]
 featuredImage: "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?q=80&w=2071&auto=format&fit=crop"
 layout: "simple"
 ---

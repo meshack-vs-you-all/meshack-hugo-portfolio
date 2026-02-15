@@ -5,6 +5,7 @@ draft: false
 description: "How to speed up slow queries using B-Tree, GIN, and Partial Indexes in PostgreSQL."
 summary: "Database performance isn't magic. It's about data structures. Learn how to optimize your Postgres queries."
 tags: ["PostgreSQL", "Database", "Performance", "SQL"]
+series: ["System Design Masterclass"]
 featuredImage: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2021&auto=format&fit=crop"
 layout: "simple"
 ---

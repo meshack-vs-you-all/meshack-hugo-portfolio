@@ -5,6 +5,7 @@ draft: false
 description: "A pragmatic introduction to Docker containers for full-stack developers."
 summary: "Containers are the standard unit of software delivery. This guide covers Dockerfiles, Compose, and best practices for Python/Node apps."
 tags: ["Docker", "DevOps", "Containers", "Deployment"]
+series: ["DevOps Zero to Hero"]
 featuredImage: "https://images.unsplash.com/photo-1605745341117-95a12dbe3f3c?q=80&w=2070&auto=format&fit=crop"
 layout: "simple"
 ---
