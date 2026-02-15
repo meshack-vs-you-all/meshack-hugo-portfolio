@@ -11,8 +11,16 @@
     </div>
 
     <div class="flex gap-4">
-        {{ partial "button.html" (dict "href" "/" "text" "cd /home" "icon" "home") }}
-        {{ partial "button.html" (dict "href" "/posts" "text" "ls /posts" "icon" "book") }}
+        <a href="{{ " /" | relURL }}"
+            class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            {{ partial "icon.html" (dict "name" "home" "size" "sm") }}
+            <span class="ml-2">cd /home</span>
+        </a>
+        <a href="{{ " /posts" | relURL }}"
+            class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            {{ partial "icon.html" (dict "name" "book" "size" "sm") }}
+            <span class="ml-2">ls /posts</span>
+        </a>
     </div>
 
     <div class="mt-12 opacity-50">
