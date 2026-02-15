@@ -9,7 +9,16 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 6
+links:
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    url: https://github.com/meshack-vs-you-all/homelab-infrastructure
 ---
+
+{{< button href="https://github.com/meshack-vs-you-all/homelab-infrastructure" target="_blank" >}}
+{{< icon "github" >}}&nbsp; View Source on GitHub
+{{< /button >}}
 
 {{< lead >}}
 My personal proving ground for **DevOps practices** — a self-healing, containerized infrastructure running on bare metal.

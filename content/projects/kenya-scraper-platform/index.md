@@ -11,7 +11,16 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 3
+links:
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    url: https://github.com/meshack-vs-you-all/ksp
 ---
+
+{{< button href="https://github.com/meshack-vs-you-all/ksp" target="_blank" >}}
+{{< icon "github" >}}&nbsp; View Source on GitHub
+{{< /button >}}
 
 {{< github repo="meshack-vs-you-all/ksp" >}}
 

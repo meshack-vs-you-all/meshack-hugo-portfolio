@@ -10,7 +10,16 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 4
+links:
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    url: https://github.com/meshack-vs-you-all/servicescout
 ---
+
+{{< button href="https://github.com/meshack-vs-you-all/servicescout" target="_blank" >}}
+{{< icon "github" >}}&nbsp; View Source on GitHub
+{{< /button >}}
 
 
 ## Overview
@@ -20,6 +29,16 @@ ServiceScout is a local service aggregator platform designed to bridge the gap b
 ## Architecture & Technical Decisions
 
 Built on **Django 5**, ServiceScout uses a clean URL hierarchy (`/<service>/<city>/<area>/`) that maps directly to search intent. Each URL combination dynamically generates a fully SEO-optimized page with unique H1 tags, meta descriptions, and structured content — without requiring manual content creation for every service-location pair.
+
+{{< mermaid >}}
+graph LR
+    A[User Search: "Plumber Westlands"] --> B(ServiceScout Router)
+    B --> C{URL Match?}
+    C -- Yes --> D[Fetch Service & Location Data]
+    D --> E[Generate Dynamic SEO Content]
+    E --> F[Render Landing Page]
+    C -- No --> G[404 / Suggest Nearby]
+{{< /mermaid >}}
 
 The lead capture system is deliberately minimal: a single streamlined form that collects just enough information to route a qualified lead to the right provider. Form hardening includes Kenyan phone number validation (07XX/01XX/+254 formats), whitespace stripping, and empty-description prevention to maintain lead quality.
 

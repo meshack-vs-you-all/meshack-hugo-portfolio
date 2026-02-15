@@ -9,7 +9,16 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 5
+links:
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    url: https://github.com/meshack-vs-you-all/local-ai-mcp
 ---
+
+{{< button href="https://github.com/meshack-vs-you-all/local-ai-mcp" target="_blank" >}}
+{{< icon "github" >}}&nbsp; View Source on GitHub
+{{< /button >}}
 
 {{< lead >}}
 Bridging the gap between local data privacy and powerful Large Language Models using the **Model Context Protocol (MCP)**.
