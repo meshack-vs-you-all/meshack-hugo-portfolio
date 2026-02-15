@@ -9,65 +9,103 @@ showComments: false
 layout: "simple"
 ---
 
+---
+title: "About Me"
+description: "Comprehensive professional background, skills, and experience."
+layout: "simple"
+showTableOfContents: true
+---
+
 {{< lead >}}
-I'm a software engineer based in Nairobi, building systems that solve real problems for real businesses. I specialize in full-stack web development with a bias toward **Django**, **FastAPI**, and **React** — always containerized, always production-ready.
+I am a **Full Stack Engineer** based in Nairobi, building systems that solve real problems. I specialize in **Django**, **React**, and **Cloud Infrastructure**, with a bias toward production-ready, self-healing architectures.
 {{< /lead >}}
 
 ## Technical Arsenal
 
-**Languages**: Python (Advanced), TypeScript, JavaScript (ES6+), Go, Bash/Shell, SQL
-<br>
-**Backend**: Django, Django REST Framework, FastAPI, Node.js, Wagtail
-<br>
-**Frontend**: React, Next.js, TailwindCSS, HTML5/CSS3
-<br>
-**AI & Agents**: Ollama, Local LLMs, Model Context Protocol (MCP), n8n
-<br>
-**DevOps**: Docker, Docker Compose, Linux (Ubuntu/Fedora), Nginx, Git, GitHub Actions
+{{< alert >}}
+**Core Stack**: Python (Django/FastAPI), JavaScript/TypeScript (React), Docker, PostgreSQL, Linux.
+{{< /alert >}}
+
+**Programming Languages**
+: Python (Advanced), TypeScript, JavaScript (ES6+), Go, Bash/Shell, SQL
+
+**Backend Frameworks**
+: Django, Django REST Framework (DRF), FastAPI, Node.js, Wagtail CMS
+
+**Frontend Technologies**
+: React.js, Next.js, Tailwind CSS, HTML5/CSS3
+
+**DevOps & Cloud**
+: Docker, Docker Compose, Linux (Ubuntu/Fedora), Nginx, Git, GitHub Actions, Traefik
+
+**AI & Automation**
+: Ollama, Local LLMs, Model Context Protocol (MCP), n8n Workflows
 
 ---
 
-## Experience
+## Professional Experience
 
-{{< timeline >}}
+### Freelance Technical Consultant
+**2023 – Present** | *Remote / Nairobi*
+- **Database Optimization**: Reduced database load by **60%** for high-traffic clients using Redis caching strategies.
+- **DevOps Automation**: Developed scripts reducing environment setup time from days to **<30 minutes**.
+- **Full Stack Development**: Built and deployed production-ready applications using Django, React, and PostgreSQL.
 
-{{< timelineItem icon="code" header="Full-Stack Software Engineer" badge="2024 — Present" subheader="Crafted Edge Solutions, Nairobi" >}}
-Leading development of the company's digital platform — a Django/Wagtail-powered system handling client management, analytics, appointments, and content publishing. Built the entire stack from scratch, including Docker deployment, REST APIs, and a Wagtail CMS for non-technical team members.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Independent Software Engineer" badge="2023 — Present" subheader="Freelance & Open Source" >}}
-Designing and shipping production systems for clients across East Africa. Projects include a fitness studio booking platform (Django + React), an SEO-first service marketplace (ServiceScout), and an ethical web scraping engine for Kenyan websites (FastAPI + Playwright).
-{{< /timelineItem >}}
-
-{{< /timeline >}}
-
----
-
-## My Approach
-
-I don't build prototypes — I build systems. Every project I take on follows the same principles:
-
-1. **Production from day one** — Docker, CI/CD, migrations, and monitoring are never afterthoughts.
-2. **Ethical engineering** — Rate limiting, robots.txt compliance, and clear user agent identification are built into every scraper. Data handling follows best practices.
-3. **Business-aware architecture** — Technical decisions serve business goals. If a simpler stack solves the problem, I use the simpler stack.
+### Operations Coordinator | FreshSpin Laundry
+**2022 – 2023** | *Nairobi*
+- **Workflow Optimization**: implemented digital tracking systems improving operational throughput by **40%**.
+- **Customer Retention**: Coordinated strategies leading to a **25%** increase in repeat business.
+- **Process Improvement**: Reduced operational costs by **15%** while maintaining service quality.
 
 ---
 
-## Let's Work Together
+## Education & Certifications
 
-I'm available for contract work, consulting, and collaboration on interesting problems.
+### ALX Software Engineering
+**2024 – Present**
+*Holberton School Curriculum*
+- Specialization in Back-End Systems, DevOps, and Low-level programming (C, Python).
 
-{{< button href="mailto:meshackmogire406@gmail.com" >}}
-{{< icon "email" >}}&nbsp; Get in Touch
-{{< /button >}}
+### ALX Career Programme
+**May 2025 – Present**
+*Software Engineering Track*
+- Comprehensive curriculum covering algorithms, system design, and professional skills.
+
+### Certifications
+- **ALX Software Engineering Programme** (Ongoing)
+- **Self-Directed Technical Learning**: Active contributor to open-source and technical communities.
 
 ---
 
+## Featured Projects
 
-## GitHub Stats
+### JPF Stretch Hub
+*Django, Python, Web App*
+A comprehensive business management platform for a fitness studio handling bookings, payments, and user management.
 
-<div class="flex flex-col gap-4 items-center mt-8 not-prose">
-  <img src="https://streak-stats.demolab.com/?user=meshack-vs-you-all&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak">
-  <img src="https://github-readme-stats.vercel.app/api?username=meshack-vs-you-all&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats">
-  <img src="https://github-profile-trophy.vercel.app/?username=meshack-vs-you-all&theme=tokyonight&no-frame=true&row=1&column=6" alt="Trophies">
-</div>
+### Shopify Marketing AI
+*TypeScript, AI Agents*
+Automated marketing strategy generator for Shopify stores, using AI agents to create and schedule content.
+
+### Homelab Infrastructure
+*Docker, K3s, Traefik*
+Self-hosted infrastructure running on bare metal, featuring automated backups, monitoring (Grafana/Prometheus), and custom services.
+
+---
+
+## Let's Connect
+
+I am open to **Contract Work**, **Consulting**, and **Full-Time Opportunities**.
+
+{{< div "flex flex-wrap gap-4" >}}
+  {{< button href="mailto:meshackmogire406@gmail.com" >}}
+    {{< icon "email" >}} Email Me
+  {{< /button >}}
+  {{< button href="https://github.com/meshack-vs-you-all" >}}
+    {{< icon "github" >}} GitHub
+  {{< /button >}}
+  {{< button href="https://linkedin.com/in/meshack-onsare-01b830283" >}}
+    {{< icon "linkedin" >}} LinkedIn
+  {{< /button >}}
+{{< /div >}}
+
