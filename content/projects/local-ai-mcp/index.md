@@ -11,7 +11,8 @@ heroStyle: "thumbAndBackground"
 weight: 5
 ---
 
-{{< badge >}} LLM {{< /badge >}} {{< badge >}} MCP {{< /badge >}} {{< badge >}} TypeScript {{< /badge >}}
+
+
 
 {{< button href="https://github.com/meshack-vs-you-all/local-ai-mcp" target="_blank" >}}
 {{< icon "github" >}}&nbsp; View Source on GitHub
@@ -34,8 +35,5 @@ This project focuses on the cutting edge of **Agentic AI** — specifically, how
 
 The architecture relies heavily on **n8n** for autonomous workflows and Python-based MCP servers for tool definitions.
 
-{{< badge >}}Model Context Protocol{{< /badge >}}
-{{< badge >}}Python{{< /badge >}}
-{{< badge >}}n8n{{< /badge >}}
-{{< badge >}}Ollama{{< /badge >}}
-{{< badge >}}DeepSeek{{< /badge >}}
+
+

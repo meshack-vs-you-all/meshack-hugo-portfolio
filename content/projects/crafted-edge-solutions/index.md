@@ -4,7 +4,8 @@ date: 2026-01-21
 draft: false
 summary: "Full-stack consultancy platform powering Crafted Edge Solutions Kenya — featuring a Wagtail CMS, client dashboards, analytics, and a blog engine."
 tags: ["Django", "Wagtail", "Docker", "PostgreSQL", "REST API"]
-externalUrl: "https://github.com/meshack-vs-you-all/Crafted_Edge_main"
+
+
 featured: true
 showReadingTime: false
 showTableOfContents: false
@@ -13,7 +14,8 @@ heroStyle: "thumbAndBackground"
 weight: 1
 ---
 
-{{< badge >}} React {{< /badge >}} {{< badge >}} Shopify {{< /badge >}} {{< badge >}} Liquid {{< /badge >}}
+
+
 
 {{< button href="https://github.com/meshack-vs-you-all/Crafted_Edge_main" target="_blank" >}}
 {{< icon "github" >}}&nbsp; View Source on GitHub

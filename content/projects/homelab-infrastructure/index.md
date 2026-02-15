@@ -11,7 +11,8 @@ heroStyle: "thumbAndBackground"
 weight: 6
 ---
 
-{{< badge >}} Docker {{< /badge >}} {{< badge >}} K3s {{< /badge >}} {{< badge >}} Grafana {{< /badge >}}
+
+
 
 ## Infrastructure Visualization
 
@@ -41,8 +42,5 @@ This project is a living laboratory where I test deployment strategies, networki
 - **Monitoring**: Real-time metrics and logging.
 - **Storage**: Network-attached storage with automated backups.
 
-{{< badge >}}Docker{{< /badge >}}
-{{< badge >}}Traefik{{< /badge >}}
-{{< badge >}}Portainer{{< /badge >}}
-{{< badge >}}Linux{{< /badge >}}
-{{< badge >}}Bash{{< /badge >}}
+
+

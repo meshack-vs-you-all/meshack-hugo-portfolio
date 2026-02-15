@@ -8,9 +8,15 @@ showHero: true
 heroStyle: "thumbAndBackground"
 ---
 
+{{< badge >}} Mermaid.js {{< /badge >}} {{< badge >}} AI Architecture {{< /badge >}} {{< badge >}} Documentation {{< /badge >}}
+
 {{< lead >}}
 Complex systems require clear visualization. I use **Mermaid as Code** to document the decision loops of my autonomous AI agents.
 {{< /lead >}}
+
+{{< alert icon="lightbulb" >}}
+**Pro Tip:** Treating diagrams as code means your architecture documentation evolves in the same commit as your implementation. No more stale `.png` files!
+{{< /alert >}}
 
 ## Why Visualization Matters
 

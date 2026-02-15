@@ -14,13 +14,14 @@ weight: 4
 
 
 
-{{< badge >}} Django {{< /badge >}} {{< badge >}} Python {{< /badge >}} {{< badge >}} SEO {{< /badge >}}
+
+
 
 ## SEO Performance (Live Metrics)
 
 ServiceScout's dynamic landing pages drive consistent organic growth. Here's a glimpse of the 30-day traffic trend:
 
-{{< chart type="line" labels="['Week 1', 'Week 2', 'Week 3', 'Week 4']" datasets="[{label: 'Organic Sessions', data: [120, 190, 300, 450], borderColor: 'rgb(75, 192, 192)', tension: 0.1}]" >}}
+{{< chart type="line" labels="['Week 1', 'Week 2', 'Week 3', 'Week 4']" datasets="[{label: 'Organic Sessions', data: [120, 190, 300, 450], borderColor: 'rgb(75, 192, 192)', tension: 0.1}]" />}}
 
 ## Architecture & Technical Decisions
 

@@ -4,7 +4,8 @@ date: 2025-10-16
 draft: false
 summary: "Production-grade ethical web scraping engine for Kenyan websites — with automatic robots.txt compliance, Playwright-based rendering, and Kubernetes-ready deployment."
 tags: ["FastAPI", "Playwright", "Celery", "PostgreSQL", "Docker"]
-externalUrl: "https://github.com/meshack-vs-you-all/ksp"
+
+
 featured: false
 showReadingTime: false
 showTableOfContents: false

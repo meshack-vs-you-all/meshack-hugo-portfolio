@@ -9,6 +9,9 @@ showTableOfContents: true
 showReadingTime: true
 ---
 
+
+
+
 {{< lead >}}
 Most Django tutorials stop at `runserver`. Here's what I've learned building platforms that handle real traffic, real payments, and real users who don't read documentation.
 {{< /lead >}}
@@ -19,9 +22,9 @@ Every Django developer knows the feeling: you follow the tutorial, everything wo
 
 After shipping multiple Django platforms — from a consultancy CMS to a fitness booking system — I've developed a set of principles that close the gap between "it works on my machine" and "it works in production."
 
-## Start with Docker, Not After
-
+{{< alert icon="docker" title="Principle #1: Containerize Immediately" >}}
 The single biggest mistake I see (and made myself) is treating Docker as a deployment concern. It's not. It's a **development** concern.
+{{< /alert >}}
 
 ```dockerfile
 FROM python:3.12-slim
@@ -71,7 +74,9 @@ My workflow for every migration:
 
 ## WhiteNoise for Static Files
 
+{{< alert icon="server" title="Simplify Your Stack" >}}
 Stop using nginx to serve static files in simple deployments. **WhiteNoise** handles static files directly from your WSGI app with proper caching headers, compression, and fingerprinting.
+{{< /alert >}}
 
 ```python
 MIDDLEWARE = [

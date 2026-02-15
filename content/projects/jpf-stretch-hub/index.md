@@ -4,7 +4,8 @@ date: 2026-01-21
 draft: false
 summary: "Booking, payment, and user management platform for a stretching and fitness studio — built with Django, React, and Celery."
 tags: ["Django", "React", "Celery", "TailwindCSS", "Docker"]
-externalUrl: "https://github.com/meshack-vs-you-all/jpf_stretch_hub"
+
+
 featured: true
 showReadingTime: false
 showTableOfContents: false

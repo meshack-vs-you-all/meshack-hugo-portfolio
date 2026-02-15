@@ -17,7 +17,7 @@ enableStructuredBreadcrumbs = true
 
 replyByEmail = false
 
-mainSections = ["projects"]
+mainSections = ["projects", "posts"] # Adapted for user's content types
 # robots = ""
 
 disableImageOptimization = false
@@ -25,23 +25,23 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+defaultBackgroundImage = "img/hero-bg.svg" # User's existing tailored background
+defaultFeaturedImage = "img/featured.svg"
+defaultSocialImage = "img/blowfish_banner.png"
 hotlinkFeatureImage = false
 # imagePosition = "50% 50%"
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
 
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v11.next.forgejo.org"
+#giteaDefaultServer = "https://git.fsfe.org"
+#forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [header]
-  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -51,60 +51,60 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/hero-bg.svg" # used in: hero, and card
+  layout = "background" # Matching demo site 'background' layout request (implied by user wanting 'blowfish.page' look)
+  # homepageImage = "/img/iceland.jpg"
   showRecent = true
-  showRecentItems = 4
+  showRecentItems = 12
   showMoreLink = true
-  showMoreLinkDest = "/projects/"
+  showMoreLinkDest = "/projects/" # Adapted
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
-  disableHeroImageFilter = false # only used when layout equals hero
+  layoutBackgroundBlur = true
+  disableHeroImageFilter = false
 
 [article]
-  showDate = true
+  showDate = true # Enabling useful metadata
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   # showAuthorBottom = false
   showHero = true
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = false # Disabled for personal portfolio
+  # editURL = "..."
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 3
   showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
-  showAuthorsBadges = false
-  showWordCount = true
-  sharingLinks = [ "linkedin", "twitter", "email", "whatsapp"]
-  showZenMode = false
+  showAuthorsBadges = true
+  showWordCount = false
+  sharingLinks = [ "linkedin", "twitter", "email"] # Reduced to relevant ones
+  showZenMode = true
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = false
   showBreadcrumbs = true
   showSummary = true
   showViews = false
   showLikes = false
-  showTableOfContents = false
+  showTableOfContents = true
   showCards = true
   orderByWeight = true
   groupByYear = false
@@ -117,18 +117,18 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
-  showTableOfContents = false
-  cardView = true
+  showTableOfContents = true
+  cardView = true # Demo uses cards for terms too
 
 [term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
   showTableOfContents = true
@@ -137,7 +137,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
+  # apiKey = ""
   # authDomain = "XXXXXX"
   # projectId = "XXXXXX"
   # storageBucket = "XXXXXX"
@@ -146,7 +146,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # measurementId = "XXXXXX"
 
 [fathomAnalytics]
-  # site = "ABC12345"
+  # site = ""
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
