@@ -17,7 +17,7 @@ enableStructuredBreadcrumbs = true
 
 replyByEmail = false
 
-mainSections = ["projects", "posts"] # Adapted for user's content types
+mainSections = ["projects"] # Projects only for the main card grid
 # robots = ""
 
 disableImageOptimization = false

@@ -15,18 +15,15 @@ I'm a software engineer based in Nairobi, building systems that solve real probl
 
 ## Technical Arsenal
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Traefik-24a1c1?style=for-the-badge&logo=traefik&logoColor=white" alt="Traefik">
-<img src="https://img.shields.io/badge/n8n-ff6584?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
+**Languages**: Python (Advanced), TypeScript, JavaScript (ES6+), Go, Bash/Shell, SQL
+<br>
+**Backend**: Django, Django REST Framework, FastAPI, Node.js, Wagtail
+<br>
+**Frontend**: React, Next.js, TailwindCSS, HTML5/CSS3
+<br>
+**AI & Agents**: Ollama, Local LLMs, Model Context Protocol (MCP), n8n
+<br>
+**DevOps**: Docker, Docker Compose, Linux (Ubuntu/Fedora), Nginx, Git, GitHub Actions
 
 ---
 
