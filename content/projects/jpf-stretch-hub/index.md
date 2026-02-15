@@ -11,12 +11,9 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 2
-links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: https://github.com/meshack-vs-you-all/jpf_stretch_hub
 ---
+
+{{< badge >}} Django {{< /badge >}} {{< badge >}} PostgreSQL {{< /badge >}} {{< badge >}} Tailwind {{< /badge >}}
 
 {{< button href="https://github.com/meshack-vs-you-all/jpf_stretch_hub" target="_blank" >}}
 {{< icon "github" >}}&nbsp; View Source on GitHub

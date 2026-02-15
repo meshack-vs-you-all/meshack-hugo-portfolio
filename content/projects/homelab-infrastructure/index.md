@@ -9,26 +9,30 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 6
-links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: https://github.com/meshack-vs-you-all/homelab-infrastructure
 ---
 
-{{< button href="https://github.com/meshack-vs-you-all/homelab-infrastructure" target="_blank" >}}
-{{< icon "github" >}}&nbsp; View Source on GitHub
-{{< /button >}}
+{{< badge >}} Docker {{< /badge >}} {{< badge >}} K3s {{< /badge >}} {{< badge >}} Grafana {{< /badge >}}
+
+## Infrastructure Visualization
+
+Explore the self-healing architecture and dashboard metrics that power my homelab.
+
+{{< gallery >}}
+  <img src="/img/homelab-dashboard.svg" class="grid-w50" alt="System Dashboard" />
+  <img src="/img/homelab-rack.svg" class="grid-w50" alt="Rack Layout" />
+{{< /gallery >}}
 
 {{< lead >}}
 My personal proving ground for **DevOps practices** — a self-healing, containerized infrastructure running on bare metal.
 {{< /lead >}}
 
+{{< button href="https://github.com/meshack-vs-you-all/homelab-infrastructure" target="_blank" >}}
+{{< icon "github" >}}&nbsp; View Source on GitHub
+{{< /button >}}
+
 ## Infrastructure Overview
 
 This project is a living laboratory where I test deployment strategies, networking configurations, and security practices before applying them to client projects. It runs a full suite of self-hosted services behind a secure reverse proxy.
-
-{{< carousel images="{img/homelab-dashboard.svg,img/homelab-rack.svg}" captions="{img/homelab-dashboard.svg:Real-time System Status Dashboard,img/homelab-rack.svg:Physical Server Rack Layout}" aspectRatio="16-9" interval="4000" >}}
 
 ## Key Components
 

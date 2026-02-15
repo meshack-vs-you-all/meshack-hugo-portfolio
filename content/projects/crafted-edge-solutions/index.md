@@ -11,12 +11,9 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 1
-links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: https://github.com/meshack-vs-you-all/Crafted_Edge_main
 ---
+
+{{< badge >}} React {{< /badge >}} {{< badge >}} Shopify {{< /badge >}} {{< badge >}} Liquid {{< /badge >}}
 
 {{< button href="https://github.com/meshack-vs-you-all/Crafted_Edge_main" target="_blank" >}}
 {{< icon "github" >}}&nbsp; View Source on GitHub

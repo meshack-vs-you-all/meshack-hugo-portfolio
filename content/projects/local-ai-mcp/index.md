@@ -9,12 +9,9 @@ showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
 weight: 5
-links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: https://github.com/meshack-vs-you-all/local-ai-mcp
 ---
+
+{{< badge >}} LLM {{< /badge >}} {{< badge >}} MCP {{< /badge >}} {{< badge >}} TypeScript {{< /badge >}}
 
 {{< button href="https://github.com/meshack-vs-you-all/local-ai-mcp" target="_blank" >}}
 {{< icon "github" >}}&nbsp; View Source on GitHub
