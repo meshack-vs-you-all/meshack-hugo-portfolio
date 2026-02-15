@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
+    <h1 class="text-9xl font-bold text-neutral-200 dark:text-neutral-800 mb-4 select-none">404</h1>
+    <div class="font-mono text-xl md:text-2xl mb-8">
+        <span class="text-primary-600 dark:text-primary-400">Error:</span> Page not found in <span
+            class="bg-neutral-100 dark:bg-neutral-800 px-2 rounded">/var/www/html</span>
+    </div>
+
+    <div class="max-w-md mx-auto mb-10 text-neutral-500 dark:text-neutral-400">
+        The requested resource could not be found. It might have been moved, deleted, or eaten by a grue.
+    </div>
+
+    <div class="flex gap-4">
+        {{ partial "button.html" (dict "href" "/" "text" "cd /home" "icon" "home") }}
+        {{ partial "button.html" (dict "href" "/posts" "text" "ls /posts" "icon" "book") }}
+    </div>
+
+    <div class="mt-12 opacity-50">
+        {{ partial "icon.html" (dict "name" "terminal" "size" "xl") }}
+    </div>
+</div>
+{{ end }}
