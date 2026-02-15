@@ -1,0 +1,154 @@
+{{/* Custom CSS for enhanced project cards and portfolio styling */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --font-sans: 'Inter', sans-serif;
+  }
+
+  /* ═══ SaaS Vibe: Zinc Palette & Typography ═══ */
+  :root {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* Refined Typography */
+  body {
+    letter-spacing: -0.015em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: -0.035em;
+    font-weight: 600;
+  }
+
+  /* SaaS Card Style */
+  .article-link--card {
+    background-color: rgb(255 255 255 / 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(228, 228, 231, 0.6);
+    /* zinc-200 */
+    border-radius: 1rem;
+    /* rounded-2xl */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .dark .article-link--card {
+    background-color: rgba(24, 24, 27, 0.6);
+    /* zinc-900 */
+    border-color: rgba(39, 39, 42, 0.6);
+    /* zinc-800 */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .article-link--card:hover {
+    transform: translateY(-4px) scale(1.005);
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
+    border-color: rgba(161, 161, 170, 0.4);
+    /* zinc-400 */
+  }
+
+  .dark .article-link--card:hover {
+    background-color: rgba(39, 39, 42, 0.8);
+    border-color: rgba(82, 82, 91, 0.5);
+    /* zinc-600 */
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Tag Badge Refinement */
+  .badge {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    border: 1px solid transparent;
+  }
+
+  .dark .badge {
+    background-color: rgba(39, 39, 42, 0.5);
+    border-color: rgba(63, 63, 70, 0.5);
+    color: #e4e4e7;
+  }
+
+  /* Profile Sidebar as Account Card */
+  aside .relative.flex.flex-col {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(228, 228, 231, 0.8);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark aside .relative.flex.flex-col {
+    background: #18181b;
+    /* zinc-900 */
+    border-color: #27272a;
+    /* zinc-800 */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Hero Text Gradient */
+  h1 {
+    background: linear-gradient(to bottom right, #18181b 30%, #52525b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .dark h1 {
+    background: linear-gradient(to bottom right, #f4f4f5 30%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ═══ Scroll Animations ═══ */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ═══ Hero Enhancements ═══ */
+  .hero-background {
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  }
+
+  /* Buttons SaaS Style */
+  a[role="button"] {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+
+    const targets = document.querySelectorAll("article, .article-link, section > h2, .project-card, .relative.group, aside");
+    targets.forEach(el => {
+      el.classList.add("fade-up");
+      observer.observe(el);
+    });
+  });
+</script>
