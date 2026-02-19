@@ -8,7 +8,7 @@ tags: ["AI", "MCP", "Python", "Local LLM", "n8n"]
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 5
+weight: 10
 ---
 
 

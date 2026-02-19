@@ -29,6 +29,14 @@ Optimizing production infrastructure.
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="h-12 w-12" alt="PostgreSQL">
 </div>
 
+{{< list limit="6" title="Featured Projects" where="Type" value="projects" >}}
+
+<div class="flex justify-center mt-8">
+  {{< button href="/projects" >}}
+  {{< icon "code" >}}&nbsp; View All Projects
+  {{< /button >}}
+</div>
+
 {{< timeline >}}
   {{< timelineItem icon="code" header="ServiceScout" badge="Lead Engineer" >}}
   Architecting a **Django-based Service Aggregator** connecting Nairobi users with local providers.
@@ -66,16 +74,6 @@ Optimizing production infrastructure.
   Led operational digitization and workflow optimization, improving throughput by 40%.
   {{< /timelineItem >}}
 {{< /timeline >}}
-
-<div class="flex flex-wrap gap-4 justify-center mt-8">
-  {{< button href="#recent-articles" >}}
-  {{< icon "code" >}}&nbsp; View My Work
-  {{< /button >}}
-
-  {{< button href="#contact" >}}
-  {{< icon "email" >}}&nbsp; Get in Touch
-  {{< /button >}}
-</div>
 
 ---
 

@@ -8,7 +8,7 @@ tags: ["DevOps", "Docker", "Traefik", "Self-Hosting", "Infrastructure"]
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 6
+weight: 11
 ---
 
 

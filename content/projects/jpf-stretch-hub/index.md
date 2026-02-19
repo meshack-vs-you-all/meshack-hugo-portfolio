@@ -11,7 +11,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 2
+weight: 9
 ---
 
 {{< badge >}} Django {{< /badge >}} {{< badge >}} PostgreSQL {{< /badge >}} {{< badge >}} Tailwind {{< /badge >}}

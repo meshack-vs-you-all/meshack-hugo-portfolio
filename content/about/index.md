@@ -27,6 +27,18 @@ I am a **Full Stack Engineer** based in Nairobi, building systems that solve rea
 
 ---
 
+## 🛠️ Transferable Backend Principles
+
+I apply core architectural patterns across different technology stacks to ensure scalability and reliability:
+
+- **MVC & Layered Architecture**: Expert at separating concerns between data (Models), business logic (Services), and presentation (Views/Controllers) in **Django**, **Express**, and **FastAPI**.
+- **Database Design & Optimization**: Proficient in relational schema design, complex joins, and query optimization in **PostgreSQL** and **MySQL**, using both ORMs and raw SQL.
+- **Authentication & Security**: Implementing robust security measures including **JWT**, **OAuth2**, and **Session-based auth**, along with secure password hashing and CORS policies.
+- **RESTful API Design**: Building clean, versioned, and well-documented APIs using **Django REST Framework** and **FastAPI**'s automatic OpenAPI spec generation.
+- **Asynchronous Task Processing**: Scaling backend operations using **Celery** with **Redis/RabbitMQ** for background jobs, email queues, and scheduled tasks.
+
+---
+
 ## Professional Experience
 
 {{< timeline >}}
