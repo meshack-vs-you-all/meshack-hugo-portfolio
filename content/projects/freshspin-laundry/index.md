@@ -10,7 +10,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 5
+weight: 11
 ---
 
 {{< button href="https://github.com/meshack-vs-you-all/freshspin-laundry" target="_blank" >}}

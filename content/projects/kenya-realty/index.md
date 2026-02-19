@@ -10,7 +10,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 6
+weight: 12
 ---
 
 {{< button href="https://github.com/meshack-vs-you-all/kenya-realty" target="_blank" >}}

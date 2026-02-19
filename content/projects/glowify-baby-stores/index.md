@@ -6,7 +6,7 @@ description: "Comprehensive Shopify store optimization and technical audit for a
 summary: "A deep-dive technical audit and renovation of a Shopify Plus store, focusing on performance optimization, liquid theme customization, and conversion rate optimization (CRO)."
 tags: ["Shopify", "Liquid", "CRO", "Technical Audit", "E-commerce"]
 series: ["Client Work"]
-weight: 8
+weight: 14
 ---
 
 ## Overview

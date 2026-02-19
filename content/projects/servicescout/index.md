@@ -9,7 +9,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 3
+weight: 4
 ---
 
 

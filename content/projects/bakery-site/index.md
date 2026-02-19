@@ -10,7 +10,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 7
+weight: 13
 ---
 
 {{< button href="https://github.com/meshack-vs-you-all/bakery-site" target="_blank" >}}

@@ -11,7 +11,7 @@ showReadingTime: false
 showTableOfContents: false
 showHero: true
 heroStyle: "thumbAndBackground"
-weight: 4
+weight: 5
 ---
 
 {{< badge >}} Python {{< /badge >}} {{< badge >}} Scrapy {{< /badge >}} {{< badge >}} Celery {{< /badge >}}
