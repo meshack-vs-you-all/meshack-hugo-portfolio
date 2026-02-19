@@ -33,6 +33,7 @@ Kenya Realty is a specialized property platform catering to the high-growth real
 ## Technical Foundation
 
 - **Framework**: Built with **Hugo** for maximum speed and SEO efficiency, ensuring property pages rank high in search results.
+- **Development Phase**: Currently in its **High-Performance Frontend phase**, with backend property search and user account features in active development.
 - **Scalability**: Designed to handle a large number of listings while maintaining near-instant load times across all pages.
 - **Local Integration**: Localized for the Kenyan market with KSh currency and local contact details.
 - **Maintainability**: A structured content model that allows for easy updates and addition of new properties without complex backend management.

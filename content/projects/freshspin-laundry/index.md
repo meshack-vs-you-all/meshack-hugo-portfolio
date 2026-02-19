@@ -35,6 +35,7 @@ The design philosophy centered on cleanliness and trust, reflecting the core val
 ## Technical Implementation
 
 - **Framework**: Built with **Hugo** (Fastest Static Site Generator) for near-instant load times.
+- **Development Phase**: Currently in a **Frontend & UI/UX rollout**, with custom backend integrations for booking and tracking currently in active development.
 - **Theme Customization**: Extensive overrides of the **PaperMod** theme to achieve a unique brand aesthetic.
 - **Performance**: Achieved high Lighthouse scores for performance, accessibility, and best practices.
 - **CI/CD**: Automated deployment via **GitHub Actions** ensures that updates are seamlessly pushed to production.

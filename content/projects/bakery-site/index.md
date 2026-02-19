@@ -33,6 +33,7 @@ The Artisan Bakery & Cafe platform is designed to showcase the artistry and fres
 ## Implementation Details
 
 - **Framework**: Built with **Hugo** for rapid content delivery and ease of maintenance.
+- **Development Phase**: Currently in its **Digital Presence & UI/UX phase**, with order management and customer interaction features in active development.
 - **Performance**: Near-instant page loads ensure that customers on mobile devices have a frictionless experience.
 - **SEO Ready**: Optimized meta tags and structured content to rank for local bakery and cafe searches in Nairobi.
 - **Mobile First**: Fully responsive design ensures the site looks great on smartphones, where many customers browse for local businesses.
