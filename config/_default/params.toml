@@ -22,7 +22,7 @@ mainSections = ["projects", "posts"]
   showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
-  copyright = "© 2026 Meshack Mogire. Engineering Excellence in Kenya."
+  copyright = "© 2026 Meshack Mogire. Engineering Excellence in Kenya. Technical Partner: [**Crafted Edge Solutions**](https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/)."
 
 [homepage]
   layout = "background"
